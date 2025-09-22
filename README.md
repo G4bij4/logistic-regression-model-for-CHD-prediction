@@ -2,7 +2,7 @@
 
 Dataset used in this project can be found here: https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea/data
 
-Project can be found here [M4S4_project1.ipynb](https://github.com/TuringCollegeSubmissions/gnaujo-PYDA.4.4/blob/main/M4S4_project1.ipynb)
+Project can be found here [CHD_prediction.ipynb](https://github.com/G4bij4/logistic-regression-model-for-CHD-prediction/blob/main/CHD_prediction.ipynb)
 
 **Goal** of this project was to develop a logistic regression model that helps predict the 10-year risk of CHD using relevant patient data.
 
