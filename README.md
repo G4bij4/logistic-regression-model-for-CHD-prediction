@@ -4,6 +4,7 @@
 This project develops a **logistic regression model** to estimate the 10-year risk of coronary heart disease (CHD) using patient health data. The objective is to support early risk identification, where failing to detect true CHD cases can have real world consequences.
 
 Dataset: https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea/data
+
 Project JupyterNotebook: [CHD_prediction.ipynb](https://github.com/G4bij4/logistic-regression-model-for-CHD-prediction/blob/main/CHD_prediction.ipynb)
 
 ## Objective
