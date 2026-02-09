@@ -31,5 +31,3 @@ While the model demonstrates reasonable performance, recall remains a limiting f
 * Experiment with alternative classification models (e.g. Decision Trees)
 * Perform deeper outlier analysis in collaboration with medical experts
 * Explore class imbalance handling techniques
-
-als, look at outlier cases and treat them more carefully)
