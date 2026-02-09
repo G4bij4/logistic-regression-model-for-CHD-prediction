@@ -1,25 +1,34 @@
-# Cardiovascular Disease Prediction Using Logistic Regression Model
+# Cardiovascular Disease Risk Prediction (Logistic Regression)
 
-Dataset used in this project can be found here: https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea/data
+## Project Overview
+This project develops a **logistic regression model** to estimate the 10-year risk of coronary heart disease (CHD) using patient health data. The objective is to support early risk identification, where failing to detect true CHD cases can have real world consequences.
 
-Project can be found here [CHD_prediction.ipynb](https://github.com/G4bij4/logistic-regression-model-for-CHD-prediction/blob/main/CHD_prediction.ipynb)
+Dataset: https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea/data
+Project JupyterNotebook: [CHD_prediction.ipynb](https://github.com/G4bij4/logistic-regression-model-for-CHD-prediction/blob/main/CHD_prediction.ipynb)
 
-**Goal** of this project was to develop a logistic regression model that helps predict the 10-year risk of CHD using relevant patient data.
+## Objective
+Build and evaluate a classification model that estimates CHD risk while prioritizing recall (sensitivity) to reduce the number of missed high-risk patients.
 
-**In order to succesfully reach the project's goal the following areas were adressed:**
+## Project Workflow
+1. Data Preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature Selection
+4. Model Development
+5. Model Evaluation
 
-1. Data preprocessing (handling missing values and identifying outliers).
-2. Exploratory data analysis (understand variable distributions and potential risk factors).
-3. Justified selection of variables to include in the model.
-4. Spliting dataset into training and testing datasets.
-5. Training a logistic regression model and evaluating its predictive performance.
-6. Selecting appropriate classification metrics and determining the optimal decision threshold.
+## Model Performance
+* Accuracy: 74%
+* Recall (CHD cases detected): 61%
 
-## Conclusion and Reccomendations
-The developed Logistic Regression Model with an optimal decision threshold of 0.1752 demonstrates performance for predicting 10-year coronary heart disease (CHD) risk, where it correctly predicted **74%** of cases. The model successfully identified **61%** of individuals who actually developed CHD. This is especially important in clinical settings, where missing true positive cases could lead to delayed diagnosis and treatment. There is room for improvement and model's performance could be improved (61% of correctly identifying true CHD cases is still pretty low).
+The model correctly identifies **61% of patients who developed CHD**, which is critical in healthcare contexts where false negatives can delay diagnosis and treatment.
 
-The following reccomendations suggest possible ways how the model could be improved:
+## Interpretation and Limitations
+While the model demonstrates reasonable performance, recall remains a limiting factor. In clinical applications, further improvements are needed to reduce missed CHD cases and increase reliability.
 
-1. Incorporate more features in to the model (that were not included), this could have an impact on the model's better performance.
-2. Try other classification algorithms (Decision Trees)
-3. Better asses outliers (discuss with medical professionals, look at outlier cases and treat them more carefully)
+## Recommendations for Improvement
+* Incorporate additional clinical features not included in the current dataset
+* Experiment with alternative classification models (e.g. Decision Trees)
+* Perform deeper outlier analysis in collaboration with medical experts
+* Explore class imbalance handling techniques
+
+als, look at outlier cases and treat them more carefully)
